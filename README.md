@@ -265,7 +265,7 @@ We want a **lightweight digit recognizer** that maps a short audio clip saying a
 python -m src.train --model logreg --seed 1337 --test-size 0.2
 
 # 2) Evaluate and save confusion matrix
-python -m src.evaluate --model-path models/fsdd_logreg.joblib --seed 1337 --test-size 0.2 --save-path reports/confusion_matrix.png
+python -m src.evaluate --model-path models/fsdd_logreg.joblib --seed 1337 --test-size 0.2
 
 # 3) Predict a known WAV
 python -m src.predict_wav data/fsdd/recordings/0_jackson_0.wav --model-path models/fsdd_logreg.joblib
