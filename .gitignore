@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+.python-version
+*.log
+
+# ---- Virtual environments / env files ----
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# ---- Jupyter / tooling caches ----
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.cache/
+coverage.xml
+htmlcov/
+.coverage*
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
+
+# ---- Dataset (FSDD) ----
+# Keep the folder structure but ignore large audio files
+data/fsdd/recordings/
+
+# If you prefer to ignore the entire dataset folder instead, use:
+# data/fsdd/*
+# !data/fsdd/.gitkeep
