@@ -297,3 +297,6 @@ python -m src.serve_mic_once --model-path models/fsdd_logreg.joblib --duration 0
 
 - **Dataset**: Free Spoken Digit Dataset (FSDD) by Zohar Jackson and contributors  
   https://github.com/Jakobovski/free-spoken-digit-dataset
+
+
+Video : https://www.loom.com/share/51573019a7274288abdfc16a6f22d0fd?sid=01b96b87-e3c5-4c37-8159-b94b20199be1
